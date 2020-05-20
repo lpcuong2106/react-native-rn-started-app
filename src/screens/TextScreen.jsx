@@ -1,15 +1,18 @@
-import React from "react";
+import React, { useState } from "react";
 import { View, Text, StyleSheet, Button, TextInput } from "react-native";
 
 const ColorCounter = () => {
+  const [name, setName] = useState("");
   return (
     <View>
       <TextInput
         style={styles.input}
         autoCapitalize="none"
         autoCorrect={false}
-        value={"hi there"}
+        value={name}
+        onChangeText={(value) => setName(value)}
       />
+      <Text>My Name is {name}</Text>
     </View>
   );
 };

@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "rn-starter",
-    "slug": "rn-starter",
+    "name": "rn-starter-cuongle",
+    "slug": "rn-starter-cuongle",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -25,6 +25,11 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "android": {
+      "package": "com.cuongle.stater"
+    },
+    "description": "",
+    "githubUrl": "https://github.com/phucuongit/react-native-rn-started-app"
   }
 }
